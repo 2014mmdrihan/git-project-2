@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-1.6_r1.5"
-           remote="aosp"
-           sync-j="4" />
+  <remote  name="aosp" fetch=".." />
+  <default revision="refs/tags/android-1.6_r1.5" remote="aosp" sync-j="4" />
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
